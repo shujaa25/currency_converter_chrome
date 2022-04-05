@@ -1,0 +1,40 @@
+body{
+  min-width: 350px;
+  margin: 0;
+  padding: 0;
+  background: #202020;
+  color: #F5F5F5;
+}
+
+.io{
+  background: #151515;
+  padding: 5%;
+  width: 300px;
+  margin: auto;
+  align-content: center;
+}
+.io input{
+  background: #202020;
+  font-size: 18pt;
+  color: #E0E0E0;
+  border: 1px solid #303030;
+  width: 100%;
+}
+.io input:hover{
+  border: 1px solid #505050;
+}
+.io input:focus{
+  border: 1px solid #202020;
+}
+.io select{
+  background: #202020;
+  font-size: 18pt;
+  color: #E0E0E0;
+  width: 305px;
+}
+.io select:hover{
+  border: 1px solid #505050;
+}
+.io select:focus{
+  border: 1px solid #202020;
+}

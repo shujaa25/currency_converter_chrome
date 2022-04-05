@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link rel="stylesheet" href="boot/bootstrap.min.css">
+        <script src="boot/jquery.min.js"></script>
+        <script src="boot/popper.min.js"></script>
+        <script src="boot/bootstrap.min.js"></script>-->
+        <script src="popup.js"></script>
+        <link rel="stylesheet" href="master.css">
+    </head>
+
+    <body>
+
+      <header>
+        <h4>Currency Converter</h4>
+      </header>
+
+      <div class="io">
+        <input type="number" id="source" step="0.01">
+        <br>
+        <select id="sourceSel"></select>
+        <br>
+        <input type="number" id="target" step="0.01" disabled>
+        <br>
+        <select id="targetSel"></select>
+      </div>
+
+      <footer>
+        <p id="ad"></p>
+      </footer>
+    </body>
+
+    <!--<body style="min-width: 400px;min-height: 400px; padding: 5%">
+      <div class="container">
+        <input class="form-control" type="number" id="source"><select class="form-control" name="">
+          <option value="" id="sDef"></option>
+        </select>
+        <br>
+        <input class="form-control" type="number" id="target"><select class="form-control" name="">
+          <option value="" id="tDef"></option>
+        </select>
+      </div>
+    </body>-->
+</html>
